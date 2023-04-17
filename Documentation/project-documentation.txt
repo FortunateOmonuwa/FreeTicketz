@@ -1,0 +1,7 @@
+--This is an E-commerce ticket booking app that allows users to book and pay for their tickets online using paypal.
+--EntityFrameWork is the ORM used to develop this application and SQL server is the Database System.
+-- The models in this project includes ACTOR, CINEMA, MOVIE, and PRODUCER.
+--The Actor and Producer model both contain the same properties such as an Id, Image, FullName, and Biography.
+-- The movie model contains properties such as an Id, Title, Description, Price, StartDate, Endate, and other relational properties such as Movie Category,
+
+-- The Movie Category is an Enum  in the Data Folder that contains categories like Action(with a default value of 1), Comedyz, Drama, Documentary, Horror, Romance, Sci-Fi, Animation and Crime. 
